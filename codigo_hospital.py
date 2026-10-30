@@ -19,6 +19,7 @@ def leer_opcion(opcion):
                 registro_depacientes()
             case 2:
                 print("==== REGISTRAR LISTA DE TRABAJADORES====")
+                registro_trabajadores()
             case 3:
                 opcion_salir()
 def registro_depacientes(nombre_completo):
@@ -29,6 +30,15 @@ def registro_depacientes(nombre_completo):
         print("Error, la cantidad de nombres en la lista debe ser menor o igual a 10.")
     else:
         print(nombres)
+
+def registro_trabajadores(nombre_trabajadores):
+    trabajadores_lista = []
+    nombre_trabajadores = input("Ingres el nombre del trabajador: ")
+    trabajadores_lista.append(nombre_trabajadores)
+    if nombre_trabajadores(len) > 20:
+        print("Error,la cantidad de nombres en la lista debe ser menor o igual a 20.")
+    else:
+        print(nombre_trabajadores)
 
 def opcion_salir(salir):
     salir = input("¿Desea salir del programa?: ").lower()
