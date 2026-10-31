@@ -8,9 +8,9 @@ def main():
 def leer_opcion(opcion):
     while True:
         try:
-            opcion = int(input("Opcion del 1 al 3: "))
-            if opcion < 1 or opcion > 3:
-                print("Error la opcion debe ser del 1 al 3.")
+            opcion = int(input("Opcion del 1 al 4: "))
+            if opcion < 1 or opcion > 4:
+                print("Error la opcion debe ser del 1 al 4.")
                 continue
         except ValueError:
             print("Error, los valores ingresados no son válidos.")
