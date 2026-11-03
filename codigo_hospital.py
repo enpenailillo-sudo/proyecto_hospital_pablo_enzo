@@ -32,7 +32,7 @@ def registro_depacientes(nombre_completo):
     nombres = []
     nombre_completo = input("Ingrese el nombre completo del paciente por favor: ").lower()
     nombres.append(nombre_completo)
-    if nombres(len) > 10:
+    if len(nombres) > 10:
         print("Error, la cantidad de nombres en la lista debe ser menor o igual a 10.")
     else:
         print(nombres)
@@ -41,7 +41,7 @@ def registro_trabajadores(nombre_trabajadores):
     trabajadores_lista = []
     nombre_trabajadores = input("Ingres el nombre del trabajador: ")
     trabajadores_lista.append(nombre_trabajadores)
-    if nombre_trabajadores(len) > 20:
+    if len(nombre_trabajadores) > 20:
         print("Error,la cantidad de nombres en la lista debe ser menor o igual a 20.")
     else:
         print(nombre_trabajadores)
