@@ -1,5 +1,4 @@
-"Se ha modificado desde un principio el codigo como tal del proyecto hospital, agregandole algunas funciones nuevas:
+Se ha modificado el codigo de hospital desde un principio, agregando las funciones de pacientes y trabajadores, ahora hace unos dias, luego de fixear un error en el código, se agregó la funcion de registrar medicamentos, en una lista, y que tengan un tope de 5 medicamentos en la lista.
 
-1.- Se agrego la funcion de los medicamentos
-2.- Se fixeo el menu de opciones
-3.- Se definió también el tope de medicamentos a registrar
+Se modificó el menú principal para agregar las opciones renovadas.
+
